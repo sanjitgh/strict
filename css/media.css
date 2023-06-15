@@ -1,0 +1,35 @@
+@media (max-width:991px) {
+    footer p {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    footer ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width:767px) {
+    .service .col-md-4 {
+        margin-bottom: 2rem;
+    }
+    .service .col-md-4:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width:575px) {
+    .banner h1 {
+        font-size: 80px;
+    }  
+    .simple_design h1 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }  
+    .simple_design p {
+        font-size: 18px;
+    }
+    .showcase h1 {
+        font-size: 30px;
+        margin: 15px 0;
+    }
+}
